@@ -13,6 +13,7 @@ on setting up a quite complex server.
 1. create user
 2. install/configure/delete services
 3. AttrsSet-merge (via nginx configuration in multiple files))
-4. create own modules (for example to predefine borg backup)
-5. secret managment
-6. flakes
+4. options override mechanism
+5. create own modules (for example to predefine borg backup)
+6. secret managment
+7. flakes
