@@ -17,3 +17,7 @@ on setting up a quite complex server.
 5. create own modules (for example to predefine borg backup)
 6. secret managment
 7. flakes
+
+## Common Starter problems
+
+* why is stuff installed -> `nix-tree`
