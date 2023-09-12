@@ -1,0 +1,15 @@
+# One CLI to format the code tree - https://github.com/numtide/treefmt
+
+[formatter.nix]
+command = "nixpkgs-fmt"
+includes = [ "*.nix"]
+
+[formatter.media]
+command = "prettier"
+options = ["--write"]
+includes = [
+    "*.json",
+    "*.md",
+    "*.yaml",
+    "*.yml",
+]
